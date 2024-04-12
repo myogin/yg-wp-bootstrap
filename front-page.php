@@ -15,7 +15,7 @@
 
 get_header();
 ?>
-<section class="right-slant-shape bg-primary py-5 mt-4 mt-10">
+<section class="right-slant-shape bg-primary pb-10 pt-4 ">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 offset-lg-2 col-md-12 position-relaive">

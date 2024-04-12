@@ -59,16 +59,7 @@
   text-align: center;
 }
 
-.my-6 {
-  margin-bottom: 2.5rem !important;
-  margin-top: 2.5rem !important;
-}
-
 @include media-breakpoint-up(lg) {
-  .my-lg-8 {
-    margin-bottom: 4rem !important;
-    margin-top: 4rem !important;
-  }
   .copyright {
     text-align: left;
   }
