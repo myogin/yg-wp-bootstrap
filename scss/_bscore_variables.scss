@@ -16,39 +16,21 @@
 
 -----------------------------------------------------------------------------*/
 
-// END YG COLOR
-// Color system
-// scss-docs-start gray-color-variables
-$white: #fff;
-$gray-100: #f8f9fa;
-$gray-200: #e9ecef;
-$gray-300: #dee2e6;
-$gray-400: #ced4da;
-$gray-500: #adb5bd;
-$gray-600: #6c757d;
-$gray-700: #495057;
-$gray-800: #343a40;
-$gray-900: #212529;
-$black: #000;
-
-// scss-docs-start color-variables
-$blue: #0d6efd;
-$indigo: #6610f2;
-$purple: #6f42c1;
-$pink: #d63384;
-$red: #dc3545;
-$orange: #fd7e14;
-$yellow: #ffc107;
-$green: #198754;
-$teal: #20c997;
-$cyan: #0dcaf0;
-
 // YG COLOR
-$yg-purple-bg: #020618;
+$yg-purple-bg: #020617;
+$yg-gray-100: #1e293b;
+$yg-gray-200: #334155;
+$yg-gray-800: #cbd5e1;
+$yg-light: #1e293b;
+$yg-dark: #fff;
+$yg-white: #1e293b;
+$yg-nav-pills-link-active-color: #475569;
+$yg-nav-pills-link-active-bg: #1e293b;
+
 $yg-primary: #8b3dff;
 $yg-secondary: #e2e8f0;
 
-$yg-body-bg: $white;
+$yg-body-bg: $yg-purple-bg;
 $yg-body-color: #64748b;
 
 $yg-navbar-color: #64748b;
@@ -58,29 +40,24 @@ $yg-dropdown-color: #475569;
 $yg-dropdown-bg: #1e293b;
 $yg-dropdown-color-active: #8b3dff;
 
+// END YG COLOR
+
 // scss-docs-start theme-color-variables
 $primary: $yg-primary;
 $secondary: $yg-secondary;
-$success: $green;
-$info: $cyan;
-$warning: $yellow;
-$danger: $red;
-$light: $gray-100;
-$dark: $gray-900;
+// $success: $green;
+// $info: $cyan;
+// $warning: $yellow;
+// $danger: $red;
+// $light: $gray-100;
+// $dark: $gray-900;
 
 // Settings for the `<body>` element.
 $body-bg: $yg-body-bg;
 $body-color: $yg-body-color;
 
-$body-tertiary-color: rgba($body-color, 0.5);
+$body-tertiary-color: $yg-body-color;
 $body-tertiary-bg: $yg-purple-bg;
-
-// Dark mode
-$body-bg-dark: $gray-900;
-$body-color-dark: $gray-500;
-
-$body-tertiary-color-dark: rgba($body-color-dark, 0.5);
-$body-tertiary-bg-dark: mix($gray-800, $gray-900, 50%);
 
 // Navbar
 $navbar-light-color: rgba($yg-navbar-color, 0.55);
@@ -94,6 +71,10 @@ $dropdown-link-hover-color: $yg-dropdown-color-active;
 $dropdown-link-hover-bg: none;
 $dropdown-link-active-color: $yg-dropdown-color-active;
 $dropdown-link-active-bg: none;
+
+// Canvas
+$offcanvas-bg: $yg-body-bg;
+$offcanvas-color: $yg-body-color;
 
 // Checkboxes
 $form-check-input-border-radius: 0.25em;
