@@ -1,0 +1,113 @@
+// In this file you can override the default variables of Bootstrap
+// Do you want primary to be green? Just add "$primary: #00FF00;" to this file and the theme will automatically compile the scss for you.
+
+/*-----------------------------------------------------------------------------
+
+  ATTENTION! This is the parent-theme's file. Your work will be lost by the 
+  next update!
+
+  Wouldn't you prefer to use one of our child themes and be update-safe?
+
+  bootscore-child: 
+  https://github.com/bootscore/bootscore-child/archive/refs/heads/main.zip
+
+  bootcommerce-child:
+  https://github.com/bootscore/bootcommerce-child/archive/refs/heads/main.zip
+
+-----------------------------------------------------------------------------*/
+
+// END YG COLOR
+// Color system
+// scss-docs-start gray-color-variables
+$white: #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black: #000;
+
+// scss-docs-start color-variables
+$blue: #0d6efd;
+$indigo: #6610f2;
+$purple: #6f42c1;
+$pink: #d63384;
+$red: #dc3545;
+$orange: #fd7e14;
+$yellow: #ffc107;
+$green: #198754;
+$teal: #20c997;
+$cyan: #0dcaf0;
+
+// YG COLOR
+$yg-purple-bg: #020618;
+$yg-primary: #8b3dff;
+$yg-secondary: #e2e8f0;
+
+$yg-body-bg: $white;
+$yg-body-color: #64748b;
+
+$yg-navbar-color: #64748b;
+$yg-navbar-color-active: #cbd5e1;
+
+$yg-dropdown-color: #475569;
+$yg-dropdown-bg: #1e293b;
+$yg-dropdown-color-active: #8b3dff;
+
+// scss-docs-start theme-color-variables
+$primary: $yg-primary;
+$secondary: $yg-secondary;
+$success: $green;
+$info: $cyan;
+$warning: $yellow;
+$danger: $red;
+$light: $gray-100;
+$dark: $gray-900;
+
+// Settings for the `<body>` element.
+$body-bg: $yg-body-bg;
+$body-color: $yg-body-color;
+
+$body-tertiary-color: rgba($body-color, 0.5);
+$body-tertiary-bg: $yg-purple-bg;
+
+// Dark mode
+$body-bg-dark: $gray-900;
+$body-color-dark: $gray-500;
+
+$body-tertiary-color-dark: rgba($body-color-dark, 0.5);
+$body-tertiary-bg-dark: mix($gray-800, $gray-900, 50%);
+
+// Navbar
+$navbar-light-color: rgba($yg-navbar-color, 0.55);
+$navbar-light-hover-color: $yg-navbar-color-active;
+$navbar-light-active-color: $yg-navbar-color-active;
+
+$dropdown-color: $yg-dropdown-color;
+$dropdown-bg: $yg-dropdown-bg;
+$dropdown-link-color: $yg-dropdown-color;
+$dropdown-link-hover-color: $yg-dropdown-color-active;
+$dropdown-link-hover-bg: none;
+$dropdown-link-active-color: $yg-dropdown-color-active;
+$dropdown-link-active-bg: none;
+
+// Checkboxes
+$form-check-input-border-radius: 0.25em;
+
+// Style anchor elements.
+$link-decoration: underline;
+$link-hover-decoration: null;
+
+// Fonts
+$font-family-sans-serif: "Public Sans", sans-serif;
+$font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+  "Liberation Mono", "Courier New", monospace;
+
+// Headings & display
+$headings-font-family: null;
+$headings-font-weight: 500;
+$display-font-weight: 300;
