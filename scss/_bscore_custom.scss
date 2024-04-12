@@ -64,6 +64,9 @@
     text-align: left;
   }
 }
+.right-slant-shape {
+  position: relative;
+}
 
 .right-slant-shape:after {
   background-color: var(--bs-body-bg);
