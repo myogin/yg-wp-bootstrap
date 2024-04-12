@@ -66,7 +66,7 @@ jQuery(function ($) {
       return storedTheme;
     }
 
-    return window.matchMedia("(prefers-color-scheme: dark)").matches
+    return window.matchMedia("(prefers-color-scheme: light)").matches
       ? "dark"
       : "light";
   };
@@ -75,7 +75,7 @@ jQuery(function ($) {
     if (theme === "auto") {
       document.documentElement.setAttribute(
         "data-bs-theme",
-        window.matchMedia("(prefers-color-scheme: dark)").matches
+        window.matchMedia("(prefers-color-scheme: light)").matches
           ? "dark"
           : "light"
       );
@@ -129,7 +129,7 @@ jQuery(function ($) {
   };
 
   window
-    .matchMedia("(prefers-color-scheme: dark)")
+    .matchMedia("(prefers-color-scheme: light)")
     .addEventListener("change", () => {
       const storedTheme = getStoredTheme();
       if (storedTheme !== "light" && storedTheme !== "dark") {
