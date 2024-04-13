@@ -32,6 +32,9 @@ $yg-secondary: #e2e8f0;
 
 $yg-body-bg: $yg-purple-bg;
 $yg-body-color: #64748b;
+$yg-body-tertiary-color: #475569;
+
+$yg-headings-color: #e2e8f0;
 
 $yg-navbar-color: #64748b;
 $yg-navbar-color-active: #cbd5e1;
@@ -40,7 +43,26 @@ $yg-dropdown-color: #475569;
 $yg-dropdown-bg: #1e293b;
 $yg-dropdown-color-active: #8b3dff;
 
+$yg-card-bg: #1e293b;
+
+$yg-border-color: #334155;
+
+$yg-light-bg-subtle: #0f172a;
+$yg-light-text-emphasis: #f1f5f9;
+$yg-light-border-subtle: #334155;
 // END YG COLOR
+
+/*-----------------------------------------------------------------------------*/
+
+// Fonts
+$font-family-sans-serif: "Public Sans", sans-serif;
+$font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+  "Liberation Mono", "Courier New", monospace;
+
+// Headings & display
+$headings-font-family: null;
+$headings-font-weight: 500;
+$display-font-weight: 300;
 
 // scss-docs-start theme-color-variables
 $primary: $yg-primary;
@@ -56,8 +78,10 @@ $secondary: $yg-secondary;
 $body-bg: $yg-body-bg;
 $body-color: $yg-body-color;
 
-$body-tertiary-color: $yg-body-color;
+$body-tertiary-color: $yg-body-tertiary-color;
 $body-tertiary-bg: $yg-purple-bg;
+
+$headings-color: $yg-headings-color;
 
 // Navbar
 $navbar-light-color: rgba($yg-navbar-color, 0.55);
@@ -83,12 +107,14 @@ $form-check-input-border-radius: 0.25em;
 $link-decoration: underline;
 $link-hover-decoration: null;
 
-// Fonts
-$font-family-sans-serif: "Public Sans", sans-serif;
-$font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
-  "Liberation Mono", "Courier New", monospace;
+// Card
 
-// Headings & display
-$headings-font-family: null;
-$headings-font-weight: 500;
-$display-font-weight: 300;
+$card-bg: $yg-card-bg;
+$card-bg-color: $yg-border-color;
+
+$border-color: $yg-border-color;
+$border-color-translucent: $yg-border-color;
+
+$light-bg-subtle: $yg-light-bg-subtle;
+$light-text-emphasis: $yg-light-text-emphasis;
+$light-border-subtle: $yg-light-border-subtle;

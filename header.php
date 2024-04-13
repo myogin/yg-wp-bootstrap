@@ -42,7 +42,7 @@
     <div id="page" class="site">
 
         <header id="masthead" class="site-header">
-        
+
             <div class="bg-body-tertiary">
 
                 <nav id="nav-main" class="navbar navbar-expand-lg">
@@ -105,7 +105,7 @@
             ?>
 
                             <!-- Navbar Toggler -->
-                            <button class="btn btn-outline-secondary d-lg-none ms-1 ms-md-2" type="button"
+                            <button class="btn btn-outline-secondary d-lg-none ms-1 ms-md-2 border-0" type="button"
                                 data-bs-toggle="offcanvas" data-bs-target="#offcanvas-navbar"
                                 aria-controls="offcanvas-navbar">
                                 <i class="fa-solid fa-bars"></i><span class="visually-hidden-focusable">Menu</span>

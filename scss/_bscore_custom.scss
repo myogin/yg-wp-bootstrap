@@ -36,6 +36,36 @@
 // .btn-outline-primary {
 //   @include button-outline-variant($mynewcolor, red, lighten($mynewcolor,5%), $mynewcolor);
 // }
+a {
+  text-decoration: none;
+}
+
+// table
+::selection {
+  background: #e8d8ff;
+  color: #381866;
+}
+.table-responsive::-webkit-scrollbar-track,
+.table-responsive-lg::-webkit-scrollbar-track,
+.table-responsive-md::-webkit-scrollbar-track,
+.table-responsive-xl::-webkit-scrollbar-track {
+  background: $yg-gray-200;
+  border-radius: 0.75rem;
+}
+
+.table-responsive::-webkit-scrollbar-thumb,
+.table-responsive-lg::-webkit-scrollbar-thumb,
+.table-responsive-md::-webkit-scrollbar-thumb,
+.table-responsive-xl::-webkit-scrollbar-thumb {
+  background: #8b3dff;
+  border-radius: 0.75rem;
+}
+.table-responsive::-webkit-scrollbar,
+.table-responsive-lg::-webkit-scrollbar,
+.table-responsive-md::-webkit-scrollbar,
+.table-responsive-xl::-webkit-scrollbar {
+  height: 3px;
+}
 
 .logo,
 .btn-close {
@@ -80,22 +110,4 @@
   height: 380px;
   position: absolute;
   width: 100%;
-}
-
-// animation
-.yg-animate-fadeIn {
-  animation-name: fadeIn;
-  animation-duration: 600ms;
-  animation-timing-function: ease;
-  animation-delay: 0ms;
-  animation-direction: normal;
-  animation-fill-mode: both;
-}
-.yg-animate-zoomIn {
-  animation-name: zoomIn;
-  animation-duration: 600ms;
-  animation-timing-function: ease;
-  animation-delay: 0ms;
-  animation-direction: normal;
-  animation-fill-mode: both;
 }
