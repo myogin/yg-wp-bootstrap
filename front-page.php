@@ -15,10 +15,10 @@
 
 get_header();
 ?>
-<section class="right-slant-shape bg-primary pb-10 pt-4 ">
+<section class="right-slant-shape bg-primary pb-10 pt-4 yg-animate-fadeIn" data-cue="fadeIn">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 offset-lg-2 col-md-12 position-relaive">
+            <div class="col-lg-8 offset-lg-2 col-md-12 position-relaive yg-animate-zoomIn" data-cue="zoomIn">
                 <div class="text-white text-center position-relaive my-lg-8 my-6">
                     <span class="fw-medium fs-4">Hi there, my name is</span>
                     <h1 class="text-white display-3 mt-3 mb-3">Yogi Nugraha</h1>
@@ -30,7 +30,7 @@ get_header();
             </div>
         </div>
     </div>
-    <div class="position-absolute z-1 w-100 text-center top-25 mt-n8">
+    <div class="position-absolute z-1 w-100 text-center top-25 mt-n8 yg-animate-zoomIn" data-cue="zoomIn">
         <img src="<?= esc_url(get_stylesheet_directory_uri()); ?>/img/profile/yg-profile.jpg" alt="avatar" width="216"
             class="rounded-circle shadow-sm border border-white border-4">
     </div>

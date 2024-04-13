@@ -81,3 +81,21 @@
   position: absolute;
   width: 100%;
 }
+
+// animation
+.yg-animate-fadeIn {
+  animation-name: fadeIn;
+  animation-duration: 600ms;
+  animation-timing-function: ease;
+  animation-delay: 0ms;
+  animation-direction: normal;
+  animation-fill-mode: both;
+}
+.yg-animate-zoomIn {
+  animation-name: zoomIn;
+  animation-duration: 600ms;
+  animation-timing-function: ease;
+  animation-delay: 0ms;
+  animation-direction: normal;
+  animation-fill-mode: both;
+}
