@@ -59,7 +59,7 @@
                     </div>
                     <div class="ms-2">
                         <h5 class="mb-0">Address:</h5>
-                        <small>1802 Ruckman RoadOklahoma City, OK 73116</small>
+                        <small>Bali City</small>
                     </div>
                 </div>
                 <div class="d-flex mb-4">
@@ -73,8 +73,8 @@
                     <div class="ms-2">
                         <h5 class="mb-0">Phone:</h5>
                         <small>
-                            00 (123) 456 78 90
-                            <span class="ms-3">00 (987) 654 32 10</span>
+                            (+62)895342574617
+                            <!-- <span class="ms-3">00 (987) 654 32 10</span> -->
                         </small>
                     </div>
                 </div>
