@@ -21,7 +21,7 @@ if (!function_exists('bootscore_category_badge')) :
   function bootscore_category_badge() {
     // Hide category and tag text for pages.
     if ('post' === get_post_type()) {
-      echo '<p class="category-badge">';
+      echo '<p class="category-badge yg-category-badge-border">';
       $thelist = '';
       $i       = 0;
       foreach (get_the_category() as $category) {
@@ -236,23 +236,23 @@ if (!function_exists('bootscore_post_thumbnail')) :
     if (is_singular()) :
       ?>
 
-      <div class="post-thumbnail">
-        <?php the_post_thumbnail('full', array('class' => 'rounded mb-3')); ?>
-      </div><!-- .post-thumbnail -->
+<div class="post-thumbnail">
+    <?php the_post_thumbnail('full', array('class' => 'rounded mb-3')); ?>
+</div><!-- .post-thumbnail -->
 
-    <?php else : ?>
+<?php else : ?>
 
-      <a class="post-thumbnail" href="<?php the_permalink(); ?>" aria-hidden="true" tabindex="-1">
-        <?php
+<a class="post-thumbnail" href="<?php the_permalink(); ?>" aria-hidden="true" tabindex="-1">
+    <?php
         the_post_thumbnail('post-thumbnail', array(
           'alt' => the_title_attribute(array(
             'echo' => false,
           )),
         ));
         ?>
-      </a>
+</a>
 
-    <?php
+<?php
     endif; // End is_singular().
   }
 endif;

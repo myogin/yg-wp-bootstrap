@@ -45,7 +45,7 @@
 
             <div class="bg-body-tertiary">
 
-                <nav id="nav-main" class="navbar navbar-expand-lg">
+                <nav id="nav-main" class="navbar navbar-expand-lg navbar-light">
 
                     <div class="<?= bootscore_container_class(); ?>">
 

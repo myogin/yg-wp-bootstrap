@@ -10,29 +10,31 @@
 
 get_header();
 ?>
-  <div id="content" class="site-content <?= bootscore_container_class(); ?> py-5 mt-5">
+<div class="pattern-square"></div>
+
+<div id="content" class="site-content <?= bootscore_container_class(); ?> py-5 mt-5">
     <div id="primary" class="content-area">
 
-      <!-- Hook to add something nice -->
-      <?php bs_after_primary(); ?>
+        <!-- Hook to add something nice -->
+        <?php bs_after_primary(); ?>
 
-      <div class="row">
-        <div class="<?= bootscore_main_col_class(); ?>">
+        <div class="row">
+            <div class="<?= bootscore_main_col_class(); ?>">
 
-          <main id="main" class="site-main">
+                <main id="main" class="site-main">
 
-            <?php if (have_posts()) : ?>
+                    <?php if (have_posts()) : ?>
 
-              <header class="page-header mb-4">
-                <h1>
-                  <?php
+                    <header class="page-header mb-4">
+                        <h1>
+                            <?php
                   /* translators: %s: search query. */
                   printf(esc_html__('Search Results for: %s', 'bootscore'), '<span class="text-secondary">' . get_search_query() . '</span>');
                   ?>
-                </h1>
-              </header>
+                        </h1>
+                    </header>
 
-              <?php
+                    <?php
               /* Start the Loop */
               while (have_posts()) :
                 the_post();
@@ -55,13 +57,13 @@ get_header();
             endif;
             ?>
 
-          </main><!-- #main -->
+                </main><!-- #main -->
 
-        </div><!-- col -->
-        <?php get_sidebar(); ?>
-      </div><!-- row -->
+            </div><!-- col -->
+            <?php get_sidebar(); ?>
+        </div><!-- row -->
 
     </div><!-- #primary -->
-  </div><!-- #content -->
+</div><!-- #content -->
 <?php
 get_footer();
