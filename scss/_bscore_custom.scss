@@ -197,6 +197,9 @@ a {
       list-style: disc;
       padding-left: 1rem;
       li {
+        &:hover a {
+          color: $yg-primary;
+        }
         a {
           color: $yg-body-color;
         }
