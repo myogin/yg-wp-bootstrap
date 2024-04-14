@@ -40,6 +40,9 @@ a {
   text-decoration: none;
 }
 
+.text-justify {
+  text-align: justify;
+}
 // table
 ::selection {
   background: #e8d8ff;
@@ -242,4 +245,14 @@ a {
       }
     }
   }
+}
+
+.bg-gray-900 {
+  background-color: #0f172a !important;
+}
+
+.yg-img-cover {
+  height: 210px;
+  width: 100%;
+  object-fit: contain;
 }

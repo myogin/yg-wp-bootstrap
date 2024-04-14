@@ -26,9 +26,8 @@ get_header();
                         <span class="fw-medium fs-4">Hi there, my name is</span>
                         <h1 class="text-white display-3 mt-3 mb-3">Yogi Nugraha</h1>
                         <p class="mb-0 pb-8 px-lg-7 text-opacity-75 lead">
-                            I'm the VP of Developer Experience at Vercel where my team helps developers build a faster
-                            web.
-                            I'm an advisor and investor in early stage startups.
+                            As a full stack developer, I handle both frontend and backend development tasks, ensuring a
+                            cohesive and high-performing experience for our users.
                         </p>
                     </div>
                 </div>
@@ -54,83 +53,81 @@ get_header();
                         </h2>
                         <p class="mb-0">
                             Here are a handful of items from my portfolio over the
-                            <span class="text-white">last 13 years.</span>
+                            <span class="text-white">last 8 years.</span>
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="table-responsive pb-5">
-                <div class="row flex-nowrap">
-                    <div class="col-lg-4 col-md-6 " data-cue="fadeIn">
+            <div class="container pb-5">
+                <div class="row ">
+                    <div class="col-lg-4 col-md-6 mb-4" data-cue="fadeIn">
                         <a href="#!">
                             <div class="card card-lift">
-                                <div class="card-body pb-0">
+                                <div class="card-body ">
                                     <div class="mb-6">
-                                        <h3 class="h4 mb-4">JAMstack &amp; Headless web development agency</h3>
+                                        <h3 class="h4 mb-4">Sangeh Monkey Fores travel website</h3>
                                         <span
-                                            class="badge bg-light-subtle border border-light-subtle text-light-emphasis rounded-2">Figma</span>
+                                            class="badge bg-light-subtle border border-light-subtle text-light-emphasis rounded-2">Wordpress</span>
                                         <span
                                             class="badge bg-light-subtle border border-light-subtle text-light-emphasis rounded-2">Bootstrap</span>
                                     </div>
                                     <img src="<?= esc_url(get_stylesheet_directory_uri()); ?>/img/front-page/porfolio.webp"
-                                        alt="portfolio" class="img-fluid rounded-top shadow-sm">
+                                        alt="portfolio" class="img-fluid rounded-top shadow-sm yg-img-cover">
                                 </div>
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-4 col-md-6" data-cue="fadeIn">
+                    <div class="col-lg-4 col-md-6 mb-4" data-cue="fadeIn">
                         <a href="#!">
                             <div class="card card-lift">
-                                <div class="card-body pb-0">
+                                <div class="card-body ">
                                     <div class="mb-6">
-                                        <h3 class="h4 mb-4">Banking and Finance landing page design</h3>
+                                        <h3 class="h4 mb-4">Finance & Asurance web application</h3>
                                         <span
-                                            class="badge bg-light-subtle border border-light-subtle text-light-emphasis rounded-2">UI
-                                            Design</span>
+                                            class="badge bg-light-subtle border border-light-subtle text-light-emphasis rounded-2">Laravel</span>
                                         <span
                                             class="badge bg-light-subtle border border-light-subtle text-light-emphasis rounded-2">Next.js</span>
+                                        <span
+                                            class="badge bg-light-subtle border border-light-subtle text-light-emphasis rounded-2">Tailwind</span>
                                     </div>
 
-                                    <img src="./assets/images/perosnal-portfolio/personal-portfolio-img-2.jpg"
-                                        alt="portfolio" class="img-fluid rounded-top shadow-sm">
+                                    <img src="<?= esc_url(get_stylesheet_directory_uri()); ?>/img/front-page/finance-web.webp"
+                                        alt="portfolio" class="img-fluid rounded-top shadow-sm yg-img-cover">
                                 </div>
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-4 col-md-6" data-cue="fadeIn">
+                    <div class="col-lg-4 col-md-6  mb-4" data-cue="fadeIn">
                         <a href="#!">
                             <div class="card card-lift">
-                                <div class="card-body pb-0">
+                                <div class="card-body ">
                                     <div class="mb-6">
-                                        <h3 class="h4 mb-4">Accounting software web app development</h3>
+                                        <h3 class="h4 mb-4">Property catelogue website application</h3>
                                         <span
-                                            class="badge bg-light-subtle border border-light-subtle text-light-emphasis rounded-2">Web
-                                            Development</span>
+                                            class="badge bg-light-subtle border border-light-subtle text-light-emphasis rounded-2">Laravel</span>
                                         <span
-                                            class="badge bg-light-subtle border border-light-subtle text-light-emphasis rounded-2">React
-                                            JS</span>
+                                            class="badge bg-light-subtle border border-light-subtle text-light-emphasis rounded-2">Vue.js</span>
                                     </div>
-                                    <img src="./assets/images/perosnal-portfolio/personal-portfolio-img-1.jpg"
-                                        alt="portfolio" class="img-fluid rounded-top shadow-sm">
+                                    <img src="<?= esc_url(get_stylesheet_directory_uri()); ?>/img/front-page/property-web.webp"
+                                        alt="portfolio" class="img-fluid rounded-top shadow-sm yg-img-cover">
                                 </div>
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-4 col-md-6" data-cue="fadeIn">
+                    <div class="col-lg-4 col-md-6  mb-4" data-cue="fadeIn">
                         <a href="#!">
                             <div class="card card-lift">
-                                <div class="card-body pb-0">
+                                <div class="card-body ">
                                     <div class="mb-6">
-                                        <h3 class="h4 mb-4">Accounting software web app development</h3>
-                                        <span
-                                            class="badge bg-light-subtle border border-light-subtle text-light-emphasis rounded-2">Web
-                                            Development</span>
+                                        <h3 class="h4 mb-4">Finance & Asurance mobile application</h3>
                                         <span
                                             class="badge bg-light-subtle border border-light-subtle text-light-emphasis rounded-2">React
-                                            JS</span>
+                                            Native</span>
                                     </div>
-                                    <img src="./assets/images/perosnal-portfolio/personal-portfolio-img-1.jpg"
-                                        alt="portfolio" class="img-fluid rounded-top shadow-sm">
+                                    <div>
+                                        <img src="<?= esc_url(get_stylesheet_directory_uri()); ?>/img/front-page/finance-mobile.webp"
+                                            alt="portfolio" class="img-fluid rounded-top shadow-sm yg-img-cover">
+                                    </div>
                                 </div>
                             </div>
                         </a>
@@ -153,8 +150,12 @@ get_header();
                             My areas of
                             <span class="text-primary">expertise</span>
                         </h2>
-                        <p class="mb-5">Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas faucibus mollis
-                            elit interdum. Duis mollis, ligula magna mollis.</p>
+                        <p class="mb-5 text-justify">With a full stack developer's proficiency, I excel in creating
+                            dynamic websites,
+                            leveraging my knowledge of front-end frameworks (React, Angular, Vue.js) and back-end
+                            technologies
+                            (Laravel, Node.js) to deliver scalable and efficient solutions.
+                        </p>
                         <a href="#!" class="btn btn-primary">View More Details</a>
                     </div>
                 </div>
@@ -164,10 +165,11 @@ get_header();
                             <div class="card bg-danger bg-opacity-10 border-0 mb-5" data-cue="fadeIn" data-delay="500">
                                 <div class="card-body">
                                     <div class="mb-4">
-                                        <img src="./assets/images/personal-svg/html5.svg" alt="html" />
+                                        <img src="<?= esc_url(get_stylesheet_directory_uri()); ?>/img/front-page/laravel-2.svg"
+                                            alt="laravel" width="40" height="40">
                                     </div>
                                     <div class="mb-4">
-                                        <h3>HTML & CSS</h3>
+                                        <h3>Laravel</h3>
                                         <p class="mb-0">Nulla vitae elit libero, a pharetra auguc id elit non mi porta
                                             gravida.</p>
                                     </div>
@@ -183,19 +185,20 @@ get_header();
                                     </a>
                                 </div>
                             </div>
-                            <div class="card bg-warning bg-opacity-10 border-0 mb-5 mb-lg-0" data-cue="fadeIn"
+                            <div class="card bg-light bg-opacity-10 border-0 mb-5 mb-lg-0" data-cue="fadeIn"
                                 data-delay="700">
                                 <div class="card-body">
                                     <div class="mb-4">
-                                        <img src="./assets/images/personal-svg/figma.svg" alt="html" />
+                                        <img src="<?= esc_url(get_stylesheet_directory_uri()); ?>/img/front-page/wordpress-icon-1.svg"
+                                            alt="wordpress" width="40" height="40">
                                     </div>
                                     <div class="mb-4">
-                                        <h3>Figma UI Design</h3>
+                                        <h3>Wordpress</h3>
                                         <p class="mb-0">Nulla vitae elit libero, a pharetra auguc id elit non mi porta
                                             gravida.</p>
                                     </div>
 
-                                    <a href="#!" class="icon-link icon-link-hover link-warning">
+                                    <a href="#!" class="icon-link icon-link-hover link-light">
                                         Link Text
                                         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
                                             fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
@@ -211,7 +214,8 @@ get_header();
                             <div class="card bg-info bg-opacity-10 border-0 mb-5" data-cue="fadeIn" data-delay="1000">
                                 <div class="card-body">
                                     <div class="mb-4">
-                                        <img src="./assets/images/personal-svg/react.svg" alt="html" />
+                                        <img src="<?= esc_url(get_stylesheet_directory_uri()); ?>/img/front-page/react.svg"
+                                            alt="react" width="40" height="40">
                                     </div>
                                     <div class="mb-4">
                                         <h3>React</h3>
@@ -234,7 +238,8 @@ get_header();
                                 data-delay="1500">
                                 <div class="card-body">
                                     <div class="mb-4">
-                                        <img src="./assets/images/personal-svg/nodejs.svg" alt="html" />
+                                        <img src="<?= esc_url(get_stylesheet_directory_uri()); ?>/img/front-page/nodejs.svg"
+                                            alt="nodejs" width="40" height="40">
                                     </div>
                                     <div class="mb-4">
                                         <h3>Node.js</h3>
@@ -271,9 +276,9 @@ get_header();
                             <div class="text-lg-center mb-5">
                                 <small class="text-uppercase ls-md fw-semibold text-body-tertiary">ABOUT ME</small>
                                 <h2 class="mt-3">
-                                    Hey, I'm Lee. Most folks know me as
-                                    <span class="text-primary">leerob</span>
-                                    online.
+                                    Hey, I'm Yogi. Most folks know me as
+                                    <span class="text-primary">YG</span>
+                                    master.
                                 </h2>
                             </div>
                         </div>
@@ -281,9 +286,9 @@ get_header();
                     <div class="row" data-cue="zoomIn">
                         <div class="col-md-6 col-12">
                             <p class="mb-4 mb-md-0S">
-                                I'm currently the VP of Developer Experience at Vercel, where I lead our Developer
-                                Relations and Documentation teams. I focus on educating and growing the Vercel and
-                                Next.js communities.
+                                As a full stack developer, I'm responsible for designing and implementing
+                                robust solutions across the entire technology stack, ensuring seamless integration and
+                                optimal performance for our users.
                             </p>
                         </div>
                         <div class="col-md-6 col-12">
@@ -296,7 +301,7 @@ get_header();
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-lg-4 col-md-12 col-12" data-cue="zoomIn">
                     <div class="mb-5 mb-lg-0 text-center text-lg-start px-md-5">
                         <h2 class="mb-3">My process of Engagement</h2>
@@ -352,23 +357,23 @@ get_header();
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
     <!--About me end-->
 
     <!--Testimonial start-->
-    <section class="py-lg-9 py-5 bg-primary-blend-gradient text-dark" data-cue="fadeIn">
+    <section class="py-lg-9 py-5 bg-gray-900 text-dark" data-cue="fadeIn">
         <div class="container">
             <div class="row align-items-center mb-lg-7 mb-5" data-cue="zoomIn">
                 <div class="col-xl-6 col-lg-5 col-md-12">
                     <div class="mb-4 mb-lg-0 text-center text-lg-start">
-                        <small class="text-uppercase ls-md fw-semibold">TESTIMONIAL</small>
+                        <small class="text-uppercase ls-md fw-semibold text-body">TESTIMONIAL</small>
                         <h2 class="mt-4">
                             I am proud of
                             <span class="text-primary">my results</span>
                         </h2>
-                        <p class="mb-0">I bring solutions to make life easier for our customers.</p>
+                        <p class="mb-0 text-body">I bring solutions to make life easier for our customers.</p>
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-7 col-md-12">
@@ -376,19 +381,19 @@ get_header();
                         <div class="col-md-4">
                             <div class="text-center text-lg-start">
                                 <h2 class="mb-1">236</h2>
-                                <span>Awards Won</span>
+                                <span class="text-body">Awards Won</span>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="text-center text-lg-start">
-                                <h2 class="mb-1">200+</h2>
-                                <span>Completed Projects</span>
+                                <h2 class="mb-1">100+</h2>
+                                <span class="text-body">Completed Projects</span>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="text-center text-lg-start">
-                                <h2 class="mb-1">10Y</h2>
-                                <span>Customer Satisfaction</span>
+                                <h2 class="mb-1">8Y</h2>
+                                <span class="text-body">Customer Satisfaction</span>
                             </div>
                         </div>
                     </div>
@@ -398,40 +403,40 @@ get_header();
                 <div class="col-lg-3 col-md-6 mb-4 mb-lg-0" data-cue="fadeIn">
                     <div class="card shadow-sm h-100 border-0">
                         <div class="card-body">
-                            <p class="mb-4">“Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus
-                                nihil. Aut enim doloremque et ipsam.”</p>
-                            <h5 class="mb-0">Jitu Chauhan</h5>
-                            <small>Creative Director - Design agency</small>
+                            <p class="mb-4">"An exceptional full stack developer, adept at crafting seamless solutions
+                                across all layers of technology."</p>
+                            <h5 class="mb-0">Mavin</h5>
+                            <small>Backend developer - Grune</small>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4 mb-lg-0" data-cue="fadeIn">
                     <div class="card shadow-sm h-100 border-0">
                         <div class="card-body">
-                            <p class="mb-4">“Dolorum et ut quod quia laborum quis quam oluptas numquam delectus nihil
-                                ultrices diam ut enim doloremque et ipsam.”</p>
-                            <h5 class="mb-0">Anita Parmar</h5>
-                            <small>Sales Specialist</small>
+                            <p class="mb-4">"Reliable team player, always ready to lend a hand and share expertise."</p>
+                            <h5 class="mb-0">Dirga</h5>
+                            <small>Senior enginer - Grune </small>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4 mb-lg-0" data-cue="fadeIn">
                     <div class="card shadow-sm h-100 border-0">
                         <div class="card-body">
-                            <p class="mb-4">“Suspendisse facilisis leo at sapien finibus rutrum. Vivamus consectetur
-                                viverra erat. Nullam pretium mauris quis ultricies ultrices.”</p>
-                            <h5 class="mb-0">Sandeep Chauhan</h5>
-                            <small>Marketing Specialist</small>
+                            <p class="mb-4">"Creative thinker, bringing fresh perspectives and driving innovation in all
+                                endeavors."</p>
+                            <h5 class="mb-0">Ida Bagus Hendra</h5>
+                            <small>Manager - grune</small>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4 mb-lg-0" data-cue="fadeIn">
                     <div class="card shadow-sm h-100 border-0">
                         <div class="card-body">
-                            <p class="mb-4">“Phasellus dapibus nibh eu libero pharetra, interdum accu msan nunc purus
-                                ferm entum sagittis vestibulum nanatibus et magnis.”</p>
-                            <h5 class="mb-0">Manasvi Suthar</h5>
-                            <small>Creative Art Director</small>
+                            <p class="mb-4">"Always there when you need them, a friend you can count on through thick
+                                and thin."
+                            </p>
+                            <h5 class="mb-0">Hein Soe oo</h5>
+                            <small>Fullstack developer - Legacy Fa</small>
                         </div>
                     </div>
                 </div>
@@ -441,7 +446,7 @@ get_header();
     <!--Testimonial end-->
 
     <!--Brand help start-->
-    <section class="my-lg-9 py-5">
+    <!-- <section class="my-lg-9 py-5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 offset-lg-1">
@@ -491,11 +496,11 @@ get_header();
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!--Brand help end-->
 
     <!--Working together start-->
-    <section class="my-lg-9 my-5">
+    <!-- <section class="my-lg-9 my-5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 offset-lg-1 col-md-12">
@@ -632,7 +637,7 @@ get_header();
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!--Working together end-->
 </main><!-- #content -->
 <?php
