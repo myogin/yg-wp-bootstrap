@@ -449,7 +449,7 @@ get_header();
                             <p class="mb-4">"Creative thinker, bringing fresh perspectives and driving innovation in all
                                 endeavors."</p>
                             <h5 class="mb-0">Ida Bagus Hendra</h5>
-                            <small>Manager - grune</small>
+                            <small>Manager - Grune</small>
                         </div>
                     </div>
                 </div>
