@@ -22,11 +22,11 @@
     <link rel="profile" href="https://gmpg.org/xfn/11">
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180"
-        href="<?= get_stylesheet_directory_uri(); ?>/img/favicon/apple-touch-icon.png">
+        href="<?= get_stylesheet_directory_uri(); ?>/img/favicon/yg-logo-180x180.png">
     <link rel="icon" type="image/png" sizes="32x32"
-        href="<?= get_stylesheet_directory_uri(); ?>/img/favicon/favicon-32x32.png">
+        href="<?= get_stylesheet_directory_uri(); ?>/img/favicon/yg-logo-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16"
-        href="<?= get_stylesheet_directory_uri(); ?>/img/favicon/favicon-16x16.png">
+        href="<?= get_stylesheet_directory_uri(); ?>/img/favicon/yg-logo-16x16.png">
     <link rel="manifest" href="<?= get_stylesheet_directory_uri(); ?>/img/favicon/site.webmanifest">
     <link rel="mask-icon" href="<?= get_stylesheet_directory_uri(); ?>/img/favicon/safari-pinned-tab.svg"
         color="#0d6efd">
