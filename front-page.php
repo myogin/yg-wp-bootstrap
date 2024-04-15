@@ -178,7 +178,8 @@ get_header();
                             technologies
                             (Laravel, Node.js) to deliver scalable and efficient solutions.
                         </p>
-                        <a href="#!" class="btn btn-primary">View More Details</a>
+                        <a href="https://made-yogi-portfolio.vercel.app/" class="btn btn-primary" target="_blank">View
+                            More Details</a>
                     </div>
                 </div>
                 <div class="col-lg-7 offset-lg-1 col-12">
@@ -318,7 +319,8 @@ get_header();
                                 – all the way to large Next.js applications. The web is incredible.</p>
                         </div>
                         <div class="text-lg-center mt-5">
-                            <a href="#!" class="btn btn-primary">More about me</a>
+                            <a href="https://made-yogi-portfolio.vercel.app/" class="btn btn-primary"
+                                target="_blank">More about me</a>
                         </div>
                     </div>
                 </div>
