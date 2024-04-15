@@ -51,11 +51,11 @@
 
                         <!-- Navbar Brand -->
                         <a class="navbar-brand xs d-md-none" href="<?= esc_url(home_url()); ?>"><img
-                                src="<?= esc_url(get_stylesheet_directory_uri()); ?>/img/logo/logo-sm.svg" alt="logo"
-                                class="logo xs"></a>
+                                src="<?= esc_url(get_stylesheet_directory_uri()); ?>/img/logo/logo-no-background.svg"
+                                width="40" alt="logo" class="logo xs"></a>
                         <a class="navbar-brand md d-none d-md-block" href="<?= esc_url(home_url()); ?>"><img
-                                src="<?= esc_url(get_stylesheet_directory_uri()); ?>/img/logo/logo.svg" alt="logo"
-                                class="logo md"></a>
+                                src="<?= esc_url(get_stylesheet_directory_uri()); ?>/img/logo/logo-no-background.svg"
+                                width="40" alt="logo" class="logo md"></a>
 
                         <!-- Offcanvas Navbar -->
                         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas-navbar">

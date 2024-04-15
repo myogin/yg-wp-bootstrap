@@ -22,8 +22,8 @@
                 <div class="mb-7 mb-xl-0">
                     <div class="mb-4">
                         <a href="#">
-                            <img src="<?= esc_url(get_stylesheet_directory_uri()); ?>/img/logo/logo-sm.svg" alt="logo"
-                                class="logo xs"></a>
+                            <img src="<?= esc_url(get_stylesheet_directory_uri()); ?>/img/logo/logo-no-background.svg"
+                                alt="logo" width="80" class="logo xs"></a>
                         </a>
                     </div>
                     <p class="mb-5">Transform your vision into reality with our expert website creation services—unlock

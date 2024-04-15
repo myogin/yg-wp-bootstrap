@@ -435,7 +435,7 @@ get_header();
                             <p class="mb-4">"Always there when you need them, a friend you can count on through thick
                                 and thin."
                             </p>
-                            <h5 class="mb-0">Hein Soe oo</h5>
+                            <h5 class="mb-0">Hein Soe Oo</h5>
                             <small>Fullstack developer - Legacy Fa</small>
                         </div>
                     </div>
