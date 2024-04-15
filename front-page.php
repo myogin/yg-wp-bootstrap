@@ -123,9 +123,31 @@ get_header();
                                         <span
                                             class="badge bg-light-subtle border border-light-subtle text-light-emphasis rounded-2">React
                                             Native</span>
+
+
                                     </div>
                                     <div>
                                         <img src="<?= esc_url(get_stylesheet_directory_uri()); ?>/img/front-page/finance-mobile.webp"
+                                            alt="portfolio" class="img-fluid rounded-top shadow-sm yg-img-cover">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6  mb-4" data-cue="fadeIn">
+                        <a href="#!">
+                            <div class="card card-lift">
+                                <div class="card-body ">
+                                    <div class="mb-6">
+                                        <h3 class="h4 mb-4">Personal portfolio website application</h3>
+                                        <span
+                                            class="badge bg-light-subtle border border-light-subtle text-light-emphasis rounded-2">React
+                                        </span><span
+                                            class="badge bg-light-subtle border border-light-subtle text-light-emphasis rounded-2">
+                                            CSS</span>
+                                    </div>
+                                    <div>
+                                        <img src="<?= esc_url(get_stylesheet_directory_uri()); ?>/img/front-page/Personal-portfolio.webp"
                                             alt="portfolio" class="img-fluid rounded-top shadow-sm yg-img-cover">
                                     </div>
                                 </div>
