@@ -59,7 +59,7 @@
                     </div>
                     <div class="ms-2">
                         <h5 class="mb-0">Address:</h5>
-                        <small>Bali City</small>
+                        <small>Denpasar City, Bali.</small>
                     </div>
                 </div>
                 <div class="d-flex mb-4">
@@ -92,8 +92,7 @@
                         <h5 class="mb-0">E-mail:</h5>
 
                         <small>
-                            <a href="#!" class="text-reset">ygcreativestudio@example.com</a> <br>
-                            <a href="#!" class="text-reset">cangkirkopi1011@gmail.com</a>
+                            <a href="#!" class="text-reset">yoginugraha19@gmail.com</a> <br>
                         </small>
                     </div>
                 </div>
