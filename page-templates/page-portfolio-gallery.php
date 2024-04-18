@@ -42,7 +42,7 @@ $terms = get_terms( array(
     'hide_empty' => false,
 ) );
 foreach ($terms as $term){ ?>
-                        <button class="btn btn-primary"
+                        <button class="btn btn-primary mb-2"
                             data-filter=".filter-<?= ygCleanCategoriesFilter($term->name);?>">
                             <?= $term->name?>
                         </button>
