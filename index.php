@@ -91,7 +91,7 @@ get_header();
                     <?php endif; ?>
 
                     <footer class="entry-footer">
-                        <?php bootscore_pagination(); ?>
+                        <?php bootscore_pagination_custom_type(); ?>
                     </footer>
 
                 </div>

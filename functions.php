@@ -74,3 +74,115 @@ function add_scrollcue_scripts() {
 	wp_enqueue_script( 'yg-scrollcue-script', get_template_directory_uri() . '/js/yg-scrollCue.js', array(), "", true );
 }
 add_action( 'wp_enqueue_scripts', 'add_scrollcue_scripts' );
+
+function add_sticky_navbar() {
+	wp_enqueue_script( 'headhesive-min-script', get_template_directory_uri() . '/js/headhesive.js', array(), "", true );
+}
+add_action( 'wp_enqueue_scripts', 'add_sticky_navbar' );
+
+function add_isotope_script() {
+  if( is_page( array( 'portfolios' ) ) ){
+	  wp_enqueue_script( 'isotope-script', get_template_directory_uri() . '/js/isotope.pkgd.min.js', array(), "3.0.6", true );
+	  wp_enqueue_script( 'isotope-init-script', get_template_directory_uri() . '/js/jquery.init.js', array(), "3.0.6", true );
+  }
+}
+add_action( 'wp_enqueue_scripts', 'add_isotope_script' );
+
+function add_yg_theme() {
+	wp_enqueue_script( 'yg-theme-script', get_template_directory_uri() . '/js/yg-theme.js', array(), "", true );
+}
+
+add_action( 'wp_enqueue_scripts', 'add_yg_theme' );
+
+// custom post
+add_action('init', function() {
+	register_post_type('portfolio', [
+		'label' => __('Portfolios', 'txtdomain'),
+		'public' => true,
+		'menu_position' => 5,
+		'hierarchical' => false,
+		'menu_icon' => 'dashicons-portfolio',
+		'supports' => ['title', 'editor', 'thumbnail','custom-fields'],
+		'show_in_rest' => true,
+		'taxonomies' => ['portfolio_stack'],
+		'rewrite' => ['slug' => 'portfolio'],
+		'labels' => [
+			'singular_name' => __('Book', 'txtdomain'),
+			'add_new_item' => __('Add new portfolio', 'txtdomain'),
+			'new_item' => __('New portfolio', 'txtdomain'),
+			'view_item' => __('View portfolio', 'txtdomain'),
+			'not_found' => __('No portfolios found', 'txtdomain'),
+			'not_found_in_trash' => __('No portfolios found in trash', 'txtdomain'),
+			'all_items' => __('All portfolios', 'txtdomain'),
+			'insert_into_item' => __('Insert into portfolio', 'txtdomain')
+		],		
+	]);
+ 
+	register_taxonomy('portfolio_stack', ['portfolio'], [
+		'label' => __('Stacks', 'txtdomain'),
+		'hierarchical' => true,
+		'rewrite' => ['slug' => 'portfolio-genre'],
+		'show_admin_column' => true,
+		'show_in_rest' => true,
+		'labels' => [
+			'singular_name' => __('Stack', 'txtdomain'),
+			'all_items' => __('All Stacks', 'txtdomain'),
+			'edit_item' => __('Edit Stack', 'txtdomain'),
+			'view_item' => __('View Stack', 'txtdomain'),
+			'update_item' => __('Update Stack', 'txtdomain'),
+			'add_new_item' => __('Add New Stack', 'txtdomain'),
+			'new_item_name' => __('New Stack Name', 'txtdomain'),
+			'search_items' => __('Search Stacks', 'txtdomain'),
+			'parent_item' => __('Parent Stack', 'txtdomain'),
+			'parent_item_colon' => __('Parent Stack:', 'txtdomain'),
+			'not_found' => __('No Stacks found', 'txtdomain'),
+		]
+	]);
+	register_taxonomy_for_object_type('portfolio_stack', 'portfolio');
+});
+
+// // custom post
+// add_action('init', function() {
+// 	register_post_type('tour', [
+// 		'label' => __('Tours', 'txtdomain'),
+// 		'public' => true,
+// 		'menu_position' => 5,
+// 		'menu_icon' => 'dashicons-car',
+// 		'supports' => ['title', 'editor', 'thumbnail', 'author', 'revisions', 'comments'],
+// 		'show_in_rest' => true,
+// 		'rewrite' => ['slug' => 'tour'],
+// 		'taxonomies' => ['portfolio_stack'],
+// 		'labels' => [
+// 			'singular_name' => __('Book', 'txtdomain'),
+// 			'add_new_item' => __('Add new tour', 'txtdomain'),
+// 			'new_item' => __('New tour', 'txtdomain'),
+// 			'view_item' => __('View tour', 'txtdomain'),
+// 			'not_found' => __('No tours found', 'txtdomain'),
+// 			'not_found_in_trash' => __('No tours found in trash', 'txtdomain'),
+// 			'all_items' => __('All tours', 'txtdomain'),
+// 			'insert_into_item' => __('Insert into tour', 'txtdomain')
+// 		],		
+// 	]);
+ 
+// 	register_taxonomy('portfolio_stack', ['tour'], [
+// 		'label' => __('Packages', 'txtdomain'),
+// 		'hierarchical' => true,
+// 		'rewrite' => ['slug' => 'tour-genre'],
+// 		'show_admin_column' => true,
+// 		'show_in_rest' => true,
+// 		'labels' => [
+// 			'singular_name' => __('Package', 'txtdomain'),
+// 			'all_items' => __('All Packages', 'txtdomain'),
+// 			'edit_item' => __('Edit Package', 'txtdomain'),
+// 			'view_item' => __('View Package', 'txtdomain'),
+// 			'update_item' => __('Update Package', 'txtdomain'),
+// 			'add_new_item' => __('Add New Package', 'txtdomain'),
+// 			'new_item_name' => __('New Package Name', 'txtdomain'),
+// 			'search_items' => __('Search Packages', 'txtdomain'),
+// 			'parent_item' => __('Parent Package', 'txtdomain'),
+// 			'parent_item_colon' => __('Parent Package:', 'txtdomain'),
+// 			'not_found' => __('No Packages found', 'txtdomain'),
+// 		]
+// 	]);
+// 	register_taxonomy_for_object_type('portfolio_stack', 'tour');
+// });
