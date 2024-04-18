@@ -34,7 +34,7 @@ get_header();
             <div class="row">
                 <div class="col-lg-12">
                     <div class="button-group filter-button-group text-center mb-3" data-cue="zoomIn">
-                        <button class="btn btn-primary" data-filter="*">All</button>
+                        <button class="btn btn-primary mb-2" data-filter="*">All</button>
 
                         <?php
 $terms = get_terms( array(
