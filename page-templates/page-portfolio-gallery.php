@@ -42,7 +42,8 @@ $terms = get_terms( array(
     'hide_empty' => false,
 ) );
 foreach ($terms as $term){ ?>
-                        <button class="btn btn-primary" data-filter=".filter-<?= $term->name?>">
+                        <button class="btn btn-primary"
+                            data-filter=".filter-<?= ygCleanCategoriesFilter($term->name);?>">
                             <?= $term->name?>
                         </button>
                         <?php }
@@ -69,7 +70,7 @@ $offset = ( $page - 1 ) * $display_count;
                 $categories = get_the_terms( get_the_ID(), 'portfolio_stack' ); ?>
 
                 <div class="col-lg-4 col-md-6 mb-2 portfolio-item 
-                <?php if ($categories) foreach ( $categories as $category){ echo "filter-".$category->name;} ?>
+                <?php if ($categories) foreach ( $categories as $category){ echo " filter-".ygCleanCategoriesFilter($category->name);} ?>
                 ">
                     <div class="card card-lift">
                         <div class="card-body pb-0">

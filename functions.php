@@ -186,3 +186,10 @@ add_action('init', function() {
 // 	]);
 // 	register_taxonomy_for_object_type('portfolio_stack', 'tour');
 // });
+
+
+function ygCleanCategoriesFilter($string) {
+  $string = str_replace(' ', '-', $string); // Replaces all spaces with hyphens.
+
+  return preg_replace('/[^A-Za-z0-9\-]/', '', $string); // Removes special chars.
+};
