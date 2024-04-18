@@ -58,12 +58,12 @@ get_header();
                     </div>
                 </div>
             </div>
-            <div class="container pb-5">
-                <div class="row ">
+            <div class="table-responsive pb-5">
+                <div class="row flex-nowrap">
                     <div class="col-lg-4 col-md-6 mb-4" data-cue="fadeIn">
                         <a href="#!">
                             <div class="card card-lift">
-                                <div class="card-body ">
+                                <div class="card-body pb-0">
                                     <div class="mb-6">
                                         <h3 class="h4 mb-4">Sangeh Monkey Fores travel website</h3>
                                         <span
@@ -82,7 +82,7 @@ get_header();
                             <div class="card card-lift">
                                 <div class="card-body ">
                                     <div class="mb-6">
-                                        <h3 class="h4 mb-4">Finance & Asurance web application</h3>
+                                        <h3 class="h4 mb-4">Finance & Insurance web application</h3>
                                         <span
                                             class="badge bg-light-subtle border border-light-subtle text-light-emphasis rounded-2">Laravel</span>
                                         <span
@@ -119,7 +119,7 @@ get_header();
                             <div class="card card-lift">
                                 <div class="card-body ">
                                     <div class="mb-6">
-                                        <h3 class="h4 mb-4">Finance & Asurance mobile application</h3>
+                                        <h3 class="h4 mb-4">Finance & Insurance mobile application</h3>
                                         <span
                                             class="badge bg-light-subtle border border-light-subtle text-light-emphasis rounded-2">React
                                             Native</span>
@@ -156,6 +156,10 @@ get_header();
                     </div>
                 </div>
             </div>
+            <div class="mt-4 text-center" data-cue="fadeIn">
+                <a href="<?= get_site_url();?>/portfolios" class="btn btn-primary" target="_blank">View
+                    More Details</a>
+            </div>
         </div>
     </section>
     <!--Portfolio end-->
@@ -178,8 +182,8 @@ get_header();
                             technologies
                             (Laravel, Node.js) to deliver scalable and efficient solutions.
                         </p>
-                        <a href="https://made-yogi-portfolio.vercel.app/" class="btn btn-primary" target="_blank">View
-                            More Details</a>
+                        <!-- <a href="https://made-yogi-portfolio.vercel.app/" class="btn btn-primary" target="_blank">View
+                            More Details</a> -->
                     </div>
                 </div>
                 <div class="col-lg-7 offset-lg-1 col-12">
