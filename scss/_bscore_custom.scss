@@ -76,6 +76,22 @@ a {
 }
 
 // Navbar
+.navbar-scroll {
+  width: 100%;
+}
+.navbar-clone {
+  box-shadow: none;
+  left: 0;
+  position: fixed !important;
+  top: 0;
+  transform: translateY(-100%);
+  transition: all 0.3s ease-in-out;
+  z-index: 1008;
+}
+
+.navbar-stick {
+  transform: translateY(0);
+}
 .navbar-light {
   border-bottom: 1px solid $yg-gray-100;
 }

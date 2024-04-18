@@ -43,7 +43,7 @@
 
         <header id="masthead" class="site-header">
 
-            <div class="bg-body-tertiary">
+            <div class="bg-body-tertiary navbar-scroll">
 
                 <nav id="nav-main" class="navbar navbar-expand-lg navbar-light">
 
@@ -58,7 +58,7 @@
                                 width="40" alt="logo" class="logo md"></a>
 
                         <!-- Offcanvas Navbar -->
-                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas-navbar">
+                        <div class="offcanvas offcanvas-end offcanvas-nav" tabindex="-1" id="offcanvas-navbar">
                             <div class="offcanvas-header">
                                 <span class="h5 offcanvas-title"><img
                                         src="<?= esc_url(get_stylesheet_directory_uri()); ?>/img/logo/logo-sm.svg"
@@ -105,8 +105,8 @@
             ?>
 
                             <!-- Navbar Toggler -->
-                            <button class="btn btn-outline-secondary d-lg-none ms-1 ms-md-2 border-0" type="button"
-                                data-bs-toggle="offcanvas" data-bs-target="#offcanvas-navbar"
+                            <button class="btn btn-outline-secondary d-lg-none ms-1 ms-md-2 border-0 offcanvas-nav-btn"
+                                type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-navbar"
                                 aria-controls="offcanvas-navbar">
                                 <i class="fa-solid fa-bars"></i><span class="visually-hidden-focusable">Menu</span>
                             </button>
