@@ -26,6 +26,8 @@ var theme = {
             this.clonedElem.querySelector(".offcanvas").removeAttribute("id");
         },
       });
+    let clone = document.querySelector(".navbar-clone");
+    clone.querySelector(".offcanvas").removeAttribute("id");
   },
 };
 theme.init();
