@@ -33,7 +33,7 @@ defined( 'ABSPATH' ) || exit;
                 <?php bootscore_category_badge(); ?>
 
                 <a class="text-body text-decoration-none" href="<?php the_permalink(); ?>">
-                    <?php the_title('<h2 class="blog-post-title h5">', '</h2>'); ?>
+                    <?php the_title('<h2 class="blog-post-title">', '</h2>'); ?>
                 </a>
 
                 <?php if ('post' === get_post_type()) : ?>
