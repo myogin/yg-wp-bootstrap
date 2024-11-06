@@ -61,8 +61,8 @@
                         <div class="offcanvas offcanvas-end offcanvas-nav" tabindex="-1" id="offcanvas-navbar">
                             <div class="offcanvas-header">
                                 <span class="h5 offcanvas-title"><img
-                                        src="<?= esc_url(get_stylesheet_directory_uri()); ?>/img/logo/logo-sm.svg"
-                                        alt="logo" class="logo xs"></span>
+                                        src="<?= esc_url(get_stylesheet_directory_uri()); ?>/img/logo/logo-no-background.svg"
+                                        width="50" alt="logo" class="logo xs"></span>
                                 <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
                                     aria-label="Close"></button>
                             </div>
