@@ -288,3 +288,28 @@ a {
   transition: transform 0.2s ease-in-out, border-color 0.2s ease-in-out,
     background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
+
+// single post
+.site-content .entry-content h1 {
+  font-size: 2.25em;
+}
+.site-content .entry-content h2.wp-block-heading {
+  font-size: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+.site-content .entry-content h3.wp-block-heading {
+  font-size: 1.25em;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+.site-content .entry-content h4.wp-block-heading {
+  font-size: 16px;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+.site-content .entry-content h5.wp-block-heading {
+  font-size: 16px;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
