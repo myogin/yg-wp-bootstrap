@@ -41,7 +41,7 @@ get_header();
     <!--hero section end-->
 
     <!--Portfolio start-->
-    <section class="my-xl-10 py-xl-9 py-10 " data-cue="fadeIn">
+    <!-- <section class="my-xl-10 py-xl-9 py-10 " data-cue="fadeIn">
         <div class="container">
             <div class="row">
                 <div class="col-xl-6 offset-xl-3 col-md-12 " data-cue="fadeIn">
@@ -161,7 +161,7 @@ get_header();
                     More Details</a>
             </div>
         </div>
-    </section>
+    </section> -->
     <!--Portfolio end-->
 
     <!--My skill start-->
