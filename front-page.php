@@ -389,7 +389,9 @@ get_header();
         </div>
     </section>
     <!--About me end-->
-
+    <section>
+        <?php the_content(); ?>
+    </section>
     <!--Testimonial start-->
     <section class="py-lg-9 py-5 bg-gray-900 text-dark" data-cue="fadeIn">
         <div class="container">
