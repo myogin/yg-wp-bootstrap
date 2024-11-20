@@ -34,7 +34,7 @@ get_header();
             </div>
         </div>
         <div class="position-absolute z-1 w-100 text-center top-25 mt-n8" data-cue="zoomIn">
-            <img src="<?= esc_url(get_stylesheet_directory_uri()); ?>/img/profile/yg-profile.jpg" alt="avatar"
+            <img src="<?= esc_url(get_stylesheet_directory_uri()); ?>/img/profile/yogi_profile.jpeg" alt="avatar"
                 width="216" class="rounded-circle shadow-sm border border-white border-4">
         </div>
     </section>
